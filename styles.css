@@ -7,17 +7,35 @@
 body {
     background-color: rgb(255, 255, 255);
   }
-  h1 {
+
+.heading {
+  position: absolute;
+  top: 60px;
+  left: 60px;
     font-family: 'DM Mono';
     font-weight: 500;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
   }
-  p {
+
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    background-image: url("clouds.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .description {
+    position: absolute;
+    top: 140px;
+    left: 60px;
     font-family: 'DM Mono';
     font-weight: 300;
-    color: rgb(0, 0, 0);
+    color: white;
   }
-.heading {
-    color: blue;
-}
-  
