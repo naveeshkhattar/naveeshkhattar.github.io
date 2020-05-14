@@ -20,19 +20,18 @@ html {
 
 @media only screen and (max-width: 600px) {
     .heading {
-        position: absolute;
-        top: 60px;
-        left: 40px;
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
         font-family: 'DM Mono';
         font-weight: 500;
-        color: rgb(255, 255, 255);
+        color: white;
         font-size: 28px;
     }
     .description {
-        position: absolute;
-        top: 140px;
-        left: 40px;
-        max-width: 300px;
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
         font-family: 'DM Mono';
         font-weight: 300;
         line-height: 26px;
@@ -46,19 +45,18 @@ html {
 
 @media only screen and (min-width: 600px) {
     .heading {
-        position: absolute;
-        top: 60px;
-        left: 60px;
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
         font-family: 'DM Mono';
         font-weight: 500;
-        color: rgb(255, 255, 255);
+        color: white;
         font-size: 40px;
     }
     .description {
-        position: absolute;
-        top: 140px;
-        left: 60px;
-        max-width: 430px;
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
         font-family: 'DM Mono';
         font-weight: 300;
         line-height: 26px;
