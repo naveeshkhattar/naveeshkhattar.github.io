@@ -19,15 +19,18 @@ canvas {
 
 @media only screen and (max-width: 600px) {
     .heading {
+        position: absolute;
         padding-top: 40px;
         padding-left: 40px;
         padding-right: 40px;
         font-family: 'DM Mono';
         font-weight: 500;
-        color: black;
+        color: white;
         font-size: 28px;
     }
     .description {
+        position: absolute;
+        top: 80px;
         max-width: 500px;
         padding-top: 40px;
         padding-left: 40px;
@@ -35,7 +38,7 @@ canvas {
         font-family: 'DM Mono';
         font-weight: 300;
         line-height: 26px;
-        color: black;
+        color: white;
         font-size: 14px;
     }
 }
