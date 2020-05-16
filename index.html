@@ -11,8 +11,9 @@
 
 
 <body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.js"></script>
+    <script src="js/three.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="js/OrbitControls.js"></script>
     <div class="bg">
 
         <div class="heading">Naveesh Khattar</div>
@@ -40,6 +41,7 @@
             camera.updateProjectionMatrix();
         })
 
+        controls = new THREE.OrbitControls(camera, renderer.domElement);
 
         var raycaster = new THREE.Raycaster();
         var mouse = new THREE.Vector2();
