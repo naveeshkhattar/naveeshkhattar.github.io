@@ -65,9 +65,9 @@ canvas {
 @media only screen and (min-width: 600px) {
     .heading {
         position: absolute;
-        padding-top: 40px;
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-top: 60px;
+        padding-left: 60px;
+        padding-right: 60px;
         font-family: 'DM Mono';
         font-weight: 500;
         color: white;
@@ -75,11 +75,11 @@ canvas {
     }
     .description {
         position: absolute;
-        top: 80px;
+        top: 100px;
         max-width: 500px;
         padding-top: 40px;
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 60px;
+        padding-right: 60px;
         font-family: 'DM Mono';
         font-weight: 300;
         line-height: 26px;
