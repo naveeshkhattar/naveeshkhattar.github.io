@@ -10,6 +10,22 @@ body {
     height: 100vh;
 }
 
+a:link,
+a:visited {
+    background-color: white;
+    color: black;
+    padding: 14px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+a:hover,
+a:active {
+    background-color: rgb(233, 233, 233);
+}
+
 canvas {
     display: block;
 }
