@@ -14,7 +14,7 @@ function HeaderNavItem ({name, linkTo,  isAction, isSelected}) {
     }
     //for links
     return (
-        <div className="nav-link">
+        <div className={`nav-link ${isSelected ? "selected" : ""}`}>
             <Link to={linkTo}>{name}</Link>
         </div>
     )
