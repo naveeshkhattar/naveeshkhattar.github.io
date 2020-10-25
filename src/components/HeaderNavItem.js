@@ -3,7 +3,7 @@ import React from "react"
 
 import "../styles/header-nav-item.scss"
 
-function HeaderNavItem ({name, linkTo,  isAction}) {
+function HeaderNavItem ({name, linkTo,  isAction, isSelected}) {
     //For contact action
     if (isAction) {
         return (
