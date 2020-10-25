@@ -1,0 +1,17 @@
+.project-card>a {
+    text-decoration: none;
+}
+
+.card-image>img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+.card-title {
+    color: #110B11;
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 1.5;
+    padding-top: 12px;
+}
