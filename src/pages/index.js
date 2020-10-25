@@ -11,7 +11,7 @@ function IndexPage() {
     return(
         <div>
             <Header selectedItem={Tabs.WORK}/>
-            <Banner descriptionText = "I’m a designer exploring the areas of interaction and graphic design. Apart from helping businesses design stable and scalable interfaces, I devote my time to learning and exploring animation, 3D graphics and programming." />
+            <Banner descriptionText = "Interaction and graphic designer. Currently working at Gojek." />
             <div className="project-grid">
                 <ProjectCard projectTitle="Asphalt Web" projectImage={gatsbyAstronaut} projectImageAltText="Asphalt Web Image" projectLink="/projectX" />
                 <ProjectCard projectTitle="Asphalt Web" projectImage={gatsbyIcon} projectImageAltText="Asphalt Web Image" projectLink="/projectX" />
