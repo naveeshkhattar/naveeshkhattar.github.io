@@ -8,6 +8,7 @@ import clouds from "../images/clouds.jpg"
 import Banner from "../components/Banner"
 import Tabs from "../constants/Tabs";
 import DescriptionGroup from "../components/DescriptionGroup"
+import PrimaryButton from "../components/PrimaryButton"
 
 function IndexPage() {
     return(
@@ -22,6 +23,10 @@ function IndexPage() {
                 <ProjectCard projectTitle="Asphalt Web" projectImage={gatsbyIcon} projectImageAltText="Asphalt Web Image" projectLink="/projectX" />
                 <ProjectCard projectTitle="Asphalt Web" projectImage={gatsbyAstronaut} projectImageAltText="Asphalt Web Image" projectLink="/projectX" />
                 <ProjectCard projectTitle="Asphalt Web" projectImage={gatsbyIcon} projectImageAltText="Asphalt Web Image" projectLink="/projectX" />
+            </div>
+            <div className="work-together">
+                <DescriptionGroup groupTitle="Let's work together" groupBody="We’re always looking for new opportunities and are comfortable working internationally. Please get in touch and one of our project managers will contact you about beginning the proposal process." />
+                <PrimaryButton buttonText="Contact" />
             </div>
         </div>
     )
