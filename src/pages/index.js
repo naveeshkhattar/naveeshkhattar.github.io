@@ -9,6 +9,7 @@ import Banner from "../components/Banner"
 import Tabs from "../constants/Tabs";
 import DescriptionGroup from "../components/DescriptionGroup"
 import PrimaryButton from "../components/PrimaryButton"
+import Footer from "../components/Footer"
 
 function IndexPage() {
     return(
@@ -28,6 +29,7 @@ function IndexPage() {
                 <DescriptionGroup groupTitle="Let's work together" groupBody="We’re always looking for new opportunities and are comfortable working internationally. Please get in touch and one of our project managers will contact you about beginning the proposal process." />
                 <PrimaryButton buttonText="Contact" />
             </div>
+            <Footer footerText="Designed and developed with ❤️ by Naveesh Khattar. Special thanks to Aakash Khatter.🤝" />
         </div>
     )
 }
