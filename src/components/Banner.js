@@ -1,10 +1,15 @@
 import React from "react"
 import "../styles/banner.scss"
 
-function Banner({descriptionText}) {
+function Banner({descriptionText, bannerImage, bannerImageAltText}) {
     return (
-        <div className="banner-text">
-            {descriptionText}
+        <div className="banner">
+            <div className="banner-text">
+                {descriptionText}
+            </div>
+            <div className="banner-image">
+            <img src={bannerImage} alt={bannerImageAltText} />
+            </div>
         </div>
     )
 }

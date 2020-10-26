@@ -11,12 +11,11 @@ function IndexPage() {
     return(
         <div>
             <Header selectedItem={Tabs.WORK}/>
-            <Banner descriptionText = "Interaction and graphic designer. Currently working at Gojek." />
+            <Banner descriptionText = "Interaction and graphic designer. Currently working at Gojek." bannerImage={gatsbyIcon} bannerImageAltText="banner image" />
             <div className="project-grid">
                 <ProjectCard projectTitle="Asphalt Web" projectImage={gatsbyAstronaut} projectImageAltText="Asphalt Web Image" projectLink="/projectX" />
                 <ProjectCard projectTitle="Asphalt Web" projectImage={gatsbyIcon} projectImageAltText="Asphalt Web Image" projectLink="/projectX" />
                 <ProjectCard projectTitle="Asphalt Web" projectImage={gatsbyAstronaut} projectImageAltText="Asphalt Web Image" projectLink="/projectX" />
-                <ProjectCard projectTitle="Asphalt Web" projectImage={gatsbyIcon} projectImageAltText="Asphalt Web Image" projectLink="/projectX" />
                 <ProjectCard projectTitle="Asphalt Web" projectImage={gatsbyIcon} projectImageAltText="Asphalt Web Image" projectLink="/projectX" />
             </div>
         </div>

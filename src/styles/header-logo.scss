@@ -1,6 +1,12 @@
 .nav-logo>a {
-    color: #110B11;
+    color: #000;
     text-decoration: none;
     font-size: 28px;
     letter-spacing: normal;
+    opacity: 1;
+    transition: opacity 400ms ease-out;
+}
+
+.nav-logo>a:hover {
+    opacity: 0.5;
 }
