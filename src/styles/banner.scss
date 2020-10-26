@@ -4,9 +4,9 @@
 }
 
 .banner-text {
-    padding-left: 12vw;
-    padding-top: 4vw;
-    width: 70vw;
+    padding-left: 10vw;
+    padding-top: 3.3vw;
+    width: 80vw;
     font-size: 4rem;
     font-weight: 500;
     line-height: 1.232;
@@ -14,9 +14,11 @@
 }
 
 .banner-image {
-    padding-top: 64px;
+    padding-top: 72px;
 }
 
 .banner-image>img {
     width: 100%;
+    height: 100vh;
+    object-fit: cover;
 }
