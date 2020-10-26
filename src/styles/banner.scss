@@ -14,8 +14,9 @@
 }
 
 .banner-image {
-    padding-top: 80px;
-    object-fit: cover;
+    padding-top: 64px;
+}
+
+.banner-image>img {
     width: 100%;
-    min-height: 100vh;
 }
