@@ -33,8 +33,12 @@ function IndexPage() {
                 <ProjectCard projectTitle="Asphalt Web" projectImage={asphaltWebCover} projectImageAltText="Asphalt Web Image" projectLink="/projectX" />
             </div>
             <div className="work-together">
-                <DescriptionGroup groupTitle="Let's work together" groupBody="We’re always looking for new opportunities and are comfortable working internationally. Please get in touch and one of our project managers will contact you about beginning the proposal process." />
-                <PrimaryButton buttonText="Contact" />
+                <div className="work-together-text">
+                    <DescriptionGroup groupTitle="Let's work together" groupBody="We’re always looking for new opportunities and are comfortable working internationally. Please get in touch and one of our project managers will contact you about beginning the proposal process." />
+                </div>
+                <div className="cta-button">
+                    <PrimaryButton buttonText="Get in touch" linkTo="mailto:naveeshkhattar@gmail.com" />
+                </div>
             </div>
             <Footer footerText="Designed and developed with ❤️ by Naveesh Khattar. Special thanks to Aakash Khatter.🤝" />
         </div>

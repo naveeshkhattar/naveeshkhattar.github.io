@@ -1,12 +1,10 @@
 import React from "react"
 import "../styles/primary-button.scss"
 
-function PrimaryButton({buttonText}) {
+function PrimaryButton({buttonText, linkTo}) {
     return(
-        <div className="primary-button">
-            {buttonText}
-        </div>
-    )
+       <a className="primary-button" href={linkTo}>{buttonText}</a>
+        );
 }
 
 export default PrimaryButton
