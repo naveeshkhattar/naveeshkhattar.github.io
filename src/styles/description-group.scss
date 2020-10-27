@@ -1,11 +1,14 @@
 .description-group {
     display: flex;
     flex-direction: column;
+    padding-left: 10vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
 }
 
 .group-title {
-    padding-left: 10vw;
-    padding-top: 4vw;
+    // padding-left: 10vw;
+    // padding-top: 4vw;
     width: 50vw;
     font-size: 2.8rem;
     font-weight: 500;
@@ -14,9 +17,9 @@
 }
 
 .group-body {
-    padding-left: 10vw;
+    // padding-left: 10vw;
     padding-top: 28px;
-    width: 50vw;
+    width: 40vw;
     font-size: 1rem;
     line-height: 1.8;
     letter-spacing: 0em;
