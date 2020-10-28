@@ -1,0 +1,8 @@
+.project-header {
+    margin: 0 auto;
+    padding: 4vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+    grid-auto-rows: min-content;
+}

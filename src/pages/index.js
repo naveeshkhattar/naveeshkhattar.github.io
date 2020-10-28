@@ -29,7 +29,7 @@ function IndexPage() {
                     <Text style={TextStyles.HEADING1}>Senior interaction designer, currently working at Gojek.</Text>
                 </div>
                 <div className="banner-image">
-                    <img src={steps} className="banner-image" />
+                    <img src={steps} />
                 </div>
             </div>
             
