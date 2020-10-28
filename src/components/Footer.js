@@ -6,7 +6,7 @@ import "../styles/footer.scss"
 function Footer() {
     return (
         <div className="footer-component">
-            <Text style={TextStyles.BODY_BLACK}>Designed and developed with ❤️ by Naveesh Khattar. Special thanks to Aakash Khatter 🤝 </Text>
+            <Text style={TextStyles.BODY_BLACK}>Designed and developed with ❤️ by Naveesh Khattar. Special thanks to Aakash Khatter.</Text>
         </div>
     )
 }
