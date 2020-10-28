@@ -1,4 +1,4 @@
-.primary-button {
+.primary-button-black {
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -7,4 +7,24 @@
     font-weight: 500;
     padding: 28px 60px;
     background-color: black;
+    opacity: 1;
+    transition: opacity 400ms ease-out;
+}
+
+.primary-button-white {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 28px 60px;
+    background-color: white;
+    opacity: 1;
+    transition: opacity 400ms ease-out;
+}
+
+.primary-button:hover,
+.primary-button-white:hover {
+    opacity: 0.8;
 }

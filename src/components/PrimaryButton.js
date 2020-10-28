@@ -1,9 +1,9 @@
 import React from "react"
 import "../styles/primary-button.scss"
 
-function PrimaryButton({buttonText, linkTo}) {
+function PrimaryButton({style, buttonText, linkTo}) {
     return(
-       <a className="primary-button" href={linkTo}>{buttonText}</a>
+       <a className={style.className} href={linkTo}>{buttonText}</a>
         );
 }
 

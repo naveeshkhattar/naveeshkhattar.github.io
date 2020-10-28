@@ -10,9 +10,7 @@ function ProjectCard({projectTitle, projectImage , projectImageAltText, projectL
         <div className="project-card">
             <Link to={projectLink}>
                 <div className="card-image">
-                    {/* <div className="card-image-inner-wrapper"> */}
                     <img src={projectImage} alt={projectImageAltText} />
-                    {/* </div> */}
                 </div>
                 <div className="card-title">
                     {projectTitle}
