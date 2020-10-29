@@ -16,7 +16,7 @@ function ProjectPage () {
         {/* Project Title + Description */}
         <div className ="project-header">
             <div className="project-header-title">
-                <Text style={TextStyles.HEADING2_BLACK}>Asphalt Web Design System</Text>
+                <Text style={TextStyles.HEADING3}>Asphalt Web Design System</Text>
             </div>
             <div className="project-header-body">
                 <Text style={TextStyles.BODY_BLACK}>Asphalt Web came into existence with the idea of achieving consistency across internal tools and web based consumer and merchant facing products. The first step was to study already existing design systems like Google, Apple, Airbnb, Atlassian, and IBM. The list is endless. We tried to understand the challenges they face and how they solved it. </Text>
