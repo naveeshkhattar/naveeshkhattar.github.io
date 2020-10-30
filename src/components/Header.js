@@ -20,10 +20,10 @@ function Header ({selectedItem}) {
       <HeaderNavItem name="Contact" linkTo="mailto:naveeshkhattar@gmail.com" isAction/>
       <div>
         <div className="social-media">
-          <a href="https://twitter.com/naveeshkhattar">
+          <a href="https://twitter.com/naveeshkhattar" target="_blank">
             <img src={Twitter} height="20" width="20" />  
           </a>
-          <a href="https://www.instagram.com/naveeshkhattar/">
+          <a href="https://www.instagram.com/naveeshkhattar/" target="_blank">
             <img src={Instagram} height="20" width="20" />
           </a>
         </div>

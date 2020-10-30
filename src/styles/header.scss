@@ -17,6 +17,8 @@
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-column-gap: 0px;
+    width: 80px;
+    margin: auto;
 }
 
 .social-media>a {

@@ -8,7 +8,7 @@ function HeaderNavItem ({name, linkTo,  isAction, isSelected}) {
     if (isAction) {
         return (
             <div className="nav-action">
-                <a href={linkTo}>{name}</a>
+                <a href={linkTo} target="_blank">{name}</a>
             </div>
         )
     }
