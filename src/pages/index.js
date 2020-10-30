@@ -26,7 +26,7 @@ function IndexPage() {
             {/* Banner */}
             <div className="banner">
                 <div className="banner-title">
-                    <Text style={TextStyles.HEADING1}>Senior interaction designer, currently working at Gojek.</Text>
+                    <Text style={TextStyles.HEADING1}>Interaction designer, currently working at Gojek.</Text>
                 </div>
                 <div className="banner-image">
                     <img src={steps} />
