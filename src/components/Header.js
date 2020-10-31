@@ -11,7 +11,7 @@ function Header ({selectedItem}) {
   return (
   <div className="header-component">
     <div className="header-logo">
-      <HeaderLogo name="Naveesh Khattar" linkTo="/" />
+      <HeaderLogo name="Naveesh" linkTo="/" />
     </div>
     <div className="header-nav">
       <HeaderNavItem name="Work" linkTo="/" isSelected={selectedItem === Tabs.WORK}/>

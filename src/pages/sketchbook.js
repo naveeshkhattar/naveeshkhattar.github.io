@@ -10,6 +10,10 @@ import steps from "../images/steps.jpg"
 import window from "../images/window.jpg"
 import "../styles/sketchbook.scss"
 import Footer from "../components/Footer"
+import Text from "../components/Text"
+import TextStyles from "../constants/TextStyles"
+import ThirdEye from "../images/third-eye.gif"
+import Fluid from "../images/fluid.gif"
 
 //Import Components
 import Header from "../components/Header"
@@ -19,6 +23,11 @@ function SketchbookPage () {
     return (
     <div>
         <Header selectedItem={Tabs.SKETCHBOOK}/>
+        <div className="persistent-text">
+            <Text style={TextStyles.HEADING1}>
+                A showcase of my art and my fart.
+            </Text>
+        </div>
         <Masonry
             breakpointCols={2}
             className="my-masonry-grid"
@@ -27,10 +36,10 @@ function SketchbookPage () {
                 <img src={steps} />
             </div>
             <div>
-                <img src={building} />
+                <img src={Fluid} />
             </div>
             <div>
-                <img src={window} />
+                <img src={ThirdEye} />
             </div>
             <div>
                 <img src={clouds} />
