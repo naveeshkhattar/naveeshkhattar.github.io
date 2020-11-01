@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Nimbus-Sans-Bold-Extended";
+    src: url("../fonts/Nimbus-Sans-Bold-Extended.ttf");
+}
+
+.hero-container {
+    margin: auto;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 10vw;
+    text-align: center;
+    width: fit-content;
+}
+
+.title-work,
+.title-party {
+    font-family: 'Nimbus-Sans-Bold-Extended', sans-serif;
+    font-size: 140px;
+    font-weight: bold;
+    color: black;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-shadow: none;
+    // color: white;
+    // text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.title-work:hover {
+    -webkit-text-fill-color: black;
+}
+
+.art:hover {
+    -webkit-text-fill-color: black;
+}

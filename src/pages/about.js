@@ -1,15 +1,17 @@
 import React from "react"
 import Tabs from "../constants/Tabs.js"
 import '../styles/styles.scss'
-
-//Import Components
+import Experiment from "../components/Experiment"
 import Header from "../components/Header"
 
 
-const AboutPage = () => ( 
-  <div>
+function AboutPage() {
+  return (
+    <div>
     <Header selectedItem={Tabs.ABOUT}/>
+    <Experiment />
   </div>
-)
+  )
+}
 
 export default AboutPage

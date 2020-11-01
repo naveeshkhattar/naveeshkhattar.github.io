@@ -1,17 +1,23 @@
-.nav-logo {
-    height: 40px;
-}
-
-.nav-logo>a {
-    color: #000;
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: 500;
-    letter-spacing: normal;
-    opacity: 1;
-    transition: opacity 400ms ease-out;
-}
-
-.nav-logo>a:hover {
-    opacity: 0.5;
-}
+    @font-face {
+        font-family: "Nimbus-Sans-Regular-Extended";
+        src: url("../fonts/Nimbus-Sans-Regular-Extended.ttf");
+    }
+    
+    .nav-logo {
+        height: 40px;
+    }
+    
+    .nav-logo>a {
+        color: #000;
+        text-decoration: none;
+        font-family: 'Nimbus-Sans-Regular-Extended', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: normal;
+        opacity: 1;
+        transition: opacity 400ms ease-out;
+    }
+    
+    .nav-logo>a:hover {
+        opacity: 0.5;
+    }

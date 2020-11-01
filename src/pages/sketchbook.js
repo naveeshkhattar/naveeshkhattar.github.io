@@ -1,22 +1,19 @@
 import React from "react"
-import Tabs from "../constants/Tabs.js"
-import '../styles/styles.scss'
 import Masonry from 'react-masonry-css'
+import Footer from "../components/Footer"
+import Header from "../components/Header"
+import Text from "../components/Text"
+import Tabs from "../constants/Tabs.js"
+import TextStyles from "../constants/TextStyles"
 import asphaltWebCover from "../images/asphalt web.png"
-import building from "../images/building.jpg"
 import clouds from "../images/clouds.jpg"
 import dome from "../images/dome.jpg"
-import steps from "../images/steps.jpg"
-import window from "../images/window.jpg"
-import "../styles/sketchbook.scss"
-import Footer from "../components/Footer"
-import Text from "../components/Text"
-import TextStyles from "../constants/TextStyles"
-import ThirdEye from "../images/third-eye.gif"
 import Fluid from "../images/fluid.gif"
+import steps from "../images/steps.jpg"
+import ThirdEye from "../images/third-eye.gif"
+import "../styles/sketchbook.scss"
+import '../styles/styles.scss'
 
-//Import Components
-import Header from "../components/Header"
 
 
 function SketchbookPage () { 
