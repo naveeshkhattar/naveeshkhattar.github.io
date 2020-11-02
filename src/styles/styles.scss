@@ -1,7 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
-$font: "Inter",
+// @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@font-face {
+    font-family: "Nimbus-Sans-Regular-Extended";
+    src: url("../fonts/Nimbus-Sans-Regular-Extended.ttf");
+}
+
+@font-face {
+    font-family: "Nimbus-Sans-Bold-Extended";
+    src: url("../fonts/Nimbus-Sans-Bold-Extended.ttf");
+}
+
+@font-face {
+    font-family: "Nimbus-Sans-Bold";
+    src: url("../fonts/Nimbus-Sans-Bold.woff");
+}
+
+@font-face {
+    font-family: "Nimbus-Sans-Regular";
+    src: url("../fonts/Nimbus-Sans-Regular.woff");
+}
+
+$font: "Nimbus-Sans-Regular",
 sans-serif;
-//Colors
 * {
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;

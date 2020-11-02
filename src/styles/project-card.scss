@@ -1,6 +1,4 @@
 .project-card {
-    // display: flex;
-    // flex-direction: column;
     opacity: 1;
     transition: opacity 400ms ease-out;
 }
@@ -26,8 +24,8 @@
 .card-title {
     color: #110B11;
     text-decoration: none;
+    font-family: 'Nimbus-Sans-Regular-Extended', sans-serif;
     font-size: 24px;
-    font-weight: 500;
     line-height: 1.5;
     padding-top: 20px;
     padding-bottom: 12px;
