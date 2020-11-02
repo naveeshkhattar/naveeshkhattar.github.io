@@ -1,29 +1,42 @@
+@import "./styles.scss";
 .hero-container {
-    margin: auto;
-    padding-left: 4vw;
-    padding-right: 4vw;
-    padding-top: 10vw;
+    // margin: auto;
+    // padding-left: 4vw;
+    // padding-right: 4vw;
+    // padding-top: 16vh;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    width: fit-content;
 }
 
 .title-work>a,
 .title-party>a {
     font-family: 'Nimbus-Sans-Bold-Extended', sans-serif;
-    font-size: 140px;
-    font-weight: bold;
-    color: black;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
-    text-shadow: none;
+    font-size: 180px;
+    color: $cream;
     text-decoration: none;
 }
 
+.title-work>a {
+    -webkit-text-stroke: 2px $blue;
+}
+
+.title-party>a {
+    -webkit-text-stroke: 2px $pink;
+}
+
+.title-work>a:hover,
+.title-party>a:hover>.art {
+    transition: color 400ms ease-out;
+}
+
 .title-work>a:hover {
-    -webkit-text-fill-color: black;
+    color: $blue;
 }
 
 .title-party>a:hover>.art {
-    -webkit-text-fill-color: black;
+    color: $pink;
 }

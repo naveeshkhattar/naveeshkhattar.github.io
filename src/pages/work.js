@@ -12,7 +12,7 @@ import clouds from "../images/clouds.jpg"
 import dome from "../images/dome.jpg"
 import steps from "../images/steps.jpg"
 import window from "../images/window.jpg"
-import '../styles/styles.scss'
+import '../styles/work.scss'
 import PrimaryButtonStyles from "../constants/PrimaryButtonStyles"
 
 

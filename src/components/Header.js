@@ -3,8 +3,8 @@ import HeaderLogo from "./HeaderLogo"
 import HeaderNavItem from "./HeaderNavItem"
 import Tabs from "../constants/Tabs.js"
 import "../styles/header.scss"
-import Twitter from "../images/icon-twitter.svg"
-import Instagram from "../images/icon-instagram.svg"
+import Twitter from "../images/icon-twitter_black.svg"
+import Instagram from "../images/icon-instagram_black.svg"
 
 
 function Header ({selectedItem}) {

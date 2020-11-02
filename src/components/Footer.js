@@ -2,8 +2,8 @@ import React from "react"
 import Text from "./Text"
 import TextStyles from "../constants/TextStyles"
 import "../styles/footer.scss"
-import Twitter from "../images/icon-twitter.svg"
-import Instagram from "../images/icon-instagram.svg"
+import Twitter from "../images/icon-twitter_white.svg"
+import Instagram from "../images/icon-instagram_white.svg"
 
 function Footer() {
     return (
@@ -18,7 +18,7 @@ function Footer() {
                 </a>
                 </div>
             </div>
-            <Text style={TextStyles.BODY_BLACK}>Designed and developed with ❤️ by Naveesh Khattar. Special thanks to Aakash Khatter.</Text>
+            <Text style={TextStyles.BODY_WHITE}>Designed and developed with ❤️ by Naveesh Khattar. Special thanks to Aakash Khatter.</Text>
         </div>
     )
 }

@@ -1,12 +1,12 @@
+@import "../styles/styles.scss";
 .primary-button-black {
     display: inline-block;
     text-decoration: none;
-    color: white;
+    color: $cream;
     font-family: "Nimbus-Sans-Regular-Extended", sans-serif;
     font-size: 18px;
-    // font-weight: 500;
     padding: 28px 60px;
-    background-color: black;
+    background-color: $black;
     opacity: 1;
     transition: opacity 400ms ease-out;
 }
@@ -14,17 +14,17 @@
 .primary-button-white {
     display: inline-block;
     text-decoration: none;
-    color: black;
+    color: $black;
     font-family: "Nimbus-Sans-Regular-Extended", sans-serif;
     font-size: 18px;
     font-weight: 500;
     padding: 28px 60px;
-    background-color: white;
+    background-color: $cream;
     opacity: 1;
     transition: opacity 400ms ease-out;
 }
 
 .primary-button:hover,
 .primary-button-white:hover {
-    opacity: 0.8;
+    opacity: 0.9;
 }
