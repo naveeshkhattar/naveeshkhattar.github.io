@@ -1,14 +1,15 @@
 import React from "react"
+import { Link } from "gatsby"
 import '../styles/experiment.scss'
 
 function WorkParty () {
     return (
         <div className="hero-container">
             <div className="title-work">
-                <p>WORK</p>
+            <Link to="/work">WORK</Link>
             </div>
             <div className="title-party">
-                <p>P<span className="art">ART</span>Y</p>
+                <Link to="/sketchbook">P<span className="art">ART</span>Y</Link>
             </div>
         </div>
     )

@@ -7,8 +7,8 @@
     width: fit-content;
 }
 
-.title-work,
-.title-party {
+.title-work>a,
+.title-party>a {
     font-family: 'Nimbus-Sans-Bold-Extended', sans-serif;
     font-size: 140px;
     font-weight: bold;
@@ -17,12 +17,13 @@
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     text-shadow: none;
+    text-decoration: none;
 }
 
-.title-work:hover {
+.title-work>a:hover {
     -webkit-text-fill-color: black;
 }
 
-.art:hover {
+.title-party>a:hover>.art {
     -webkit-text-fill-color: black;
 }

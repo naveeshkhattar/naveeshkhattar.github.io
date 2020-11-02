@@ -14,7 +14,7 @@ function Header ({selectedItem}) {
       <HeaderLogo name="Naveesh" linkTo="/" />
     </div>
     <div className="header-nav">
-      <HeaderNavItem name="Work" linkTo="/" isSelected={selectedItem === Tabs.WORK}/>
+      <HeaderNavItem name="Work" linkTo="/work" isSelected={selectedItem === Tabs.WORK}/>
       <HeaderNavItem name="Sketchbook" linkTo="/sketchbook" isSelected={selectedItem === Tabs.SKETCHBOOK}/>
       <HeaderNavItem name="About" linkTo="/about" isSelected={selectedItem === Tabs.ABOUT}/>
       <HeaderNavItem name="Contact" linkTo="mailto:naveeshkhattar@gmail.com" isAction/>
