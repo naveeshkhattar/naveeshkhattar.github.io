@@ -1,42 +1,39 @@
 @import "./styles.scss";
 .hero-container {
-    // margin: auto;
-    // padding-left: 4vw;
-    // padding-right: 4vw;
-    // padding-top: 16vh;
-    height: 75vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    height: 60vh;
+    width: 60vw;
+    margin: auto;
+    display: grid;
+    grid-auto-rows: 1fr 1fr;
 }
 
-.title-work>a,
-.title-party>a {
-    font-family: 'Nimbus-Sans-Bold-Extended', sans-serif;
-    font-size: 180px;
-    color: $cream;
-    text-decoration: none;
+.title-work,
+.title-party {
+    align-self: center;
 }
 
-.title-work>a {
-    -webkit-text-stroke: 2px $blue;
+.work-svg,
+.party-highlight-svg,
+.party-no-highlight-svg {
+    stroke-width: 1.5px;
+    transition: fill 400ms ease-out;
 }
 
-.title-party>a {
-    -webkit-text-stroke: 2px $pink;
+.work-svg {
+    fill: $cream;
+    stroke: $blue;
 }
 
-.title-work>a:hover,
-.title-party>a:hover>.art {
-    transition: color 400ms ease-out;
+.party-highlight-svg,
+.party-no-highlight-svg {
+    fill: $cream;
+    stroke: $pink;
 }
 
-.title-work>a:hover {
-    color: $blue;
+.title-work>a>svg:hover>.work-svg {
+    fill: $blue;
 }
 
-.title-party>a:hover>.art {
-    color: $pink;
+.title-party>a>svg:hover>.party-highlight-svg {
+    fill: $pink;
 }

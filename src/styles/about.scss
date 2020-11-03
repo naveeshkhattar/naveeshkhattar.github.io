@@ -1,0 +1,8 @@
+.about-me {
+    margin: 0 auto;
+    padding: 4vw 10vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 80px;
+    grid-auto-rows: min-content;
+}

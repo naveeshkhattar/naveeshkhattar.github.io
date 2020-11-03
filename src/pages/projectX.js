@@ -11,7 +11,7 @@ function ProjectPage () {
     return (
         <div>
         {/* Header */}
-        <Header selectedItem={Tabs.WORK}></Header>
+        <Header selectedItem={Tabs.WORK} />
 
         {/* Project Title + Description */}
         <div className ="project-header">
