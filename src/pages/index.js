@@ -1,15 +1,15 @@
 import React from "react"
 import Header from "../components/Header"
 import '../styles/styles.scss'
-import Experiment from "../components/Experiment"
-import '../styles/experiment.scss'
+import HomeBanner from "../components/HomeBanner"
+import '../styles/home-banner.scss'
 
 
 function IndexPage() {
     return(
             <div>
             <Header />
-            <Experiment />
+            <HomeBanner />
           </div>
     )
 }

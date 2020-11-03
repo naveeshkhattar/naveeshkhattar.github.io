@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
-import "../styles/experiment.scss"
+import "../styles/home-banner.scss"
 
-function WorkParty() {
+function HomeBanner() {
   return (
     <div className="hero-container">
       {/* WORK */}
@@ -76,4 +76,4 @@ function WorkParty() {
   )
 }
 
-export default WorkParty
+export default HomeBanner

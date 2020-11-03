@@ -1,8 +1,12 @@
 @import "./styles.scss";
+body {
+    min-height: 100vh;
+}
+
 .hero-container {
-    height: 60vh;
-    width: 60vw;
-    margin: auto;
+    height: 70vh;
+    width: 80vw;
+    margin: 3vh auto;
     display: grid;
     grid-auto-rows: 1fr 1fr;
 }
