@@ -3,21 +3,12 @@ import React from "react"
 
 import "../styles/header-nav-item.scss"
 
-function HeaderNavItem ({name, linkTo,  isAction, isSelected}) {
-    //For contact action
-    if (isAction) {
-        return (
-            <div className="nav-action">
-                <a href={linkTo} target="_blank">{name}</a>
-            </div>
-        )
-    }
-    //for links
-    return (
-        <div className={`nav-link ${isSelected ? "selected" : ""}`}>
-            <Link to={linkTo}>{name}</Link>
-        </div>
-    )
+function HeaderNavItem({ name, linkTo, isSelected }) {
+  return (
+    <div className={`nav-link ${isSelected ? "selected" : ""}`}>
+      <Link to={linkTo}>{name}</Link>
+    </div>
+  )
 }
 
 export default HeaderNavItem
