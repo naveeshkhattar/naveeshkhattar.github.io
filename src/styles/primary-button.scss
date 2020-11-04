@@ -12,16 +12,20 @@
 }
 
 .primary-button-white {
-    display: inline-block;
+    opacity: 1;
+    transition: opacity 400ms ease-out;
+}
+
+.primary-button-white>a {
+    width: fit-content;
+    background-color: $cream;
+    display: block;
     text-decoration: none;
     color: $black;
     font-family: "Nimbus-Sans-Regular-Extended", sans-serif;
     font-size: 18px;
     font-weight: 500;
     padding: 28px 60px;
-    background-color: $cream;
-    opacity: 1;
-    transition: opacity 400ms ease-out;
 }
 
 .primary-button:hover,

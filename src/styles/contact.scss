@@ -1,0 +1,19 @@
+@import "../styles/styles.scss";
+body {
+    min-height: 100vh;
+}
+
+.contact-container {
+    margin-top: 3.3vw;
+    margin-left: 10vw;
+    width: 80vw;
+}
+
+.contact-container>p>a {
+    text-decoration: none;
+    color: $salmon;
+}
+
+.contact-container>p>a:hover {
+    text-decoration: underline;
+}
