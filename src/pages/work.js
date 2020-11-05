@@ -4,6 +4,7 @@ import Header from "../components/Header"
 import PrimaryButton from "../components/PrimaryButton"
 import ProjectCard from "../components/ProjectCard"
 import Text from "../components/Text"
+import PrimaryButtonStyles from "../constants/PrimaryButtonStyles"
 import Tabs from "../constants/Tabs"
 import TextStyles from "../constants/TextStyles"
 import asphaltWebCover from "../images/asphalt web.png"
@@ -13,7 +14,6 @@ import dome from "../images/dome.jpg"
 import steps from "../images/steps.jpg"
 import window from "../images/window.jpg"
 import "../styles/work.scss"
-import PrimaryButtonStyles from "../constants/PrimaryButtonStyles"
 
 function WorkPage() {
   return (
