@@ -2,7 +2,9 @@ import React from "react"
 import Masonry from "react-masonry-css"
 import Footer from "../components/Footer"
 import Header from "../components/Header"
+import PrimaryButton from "../components/PrimaryButton"
 import Text from "../components/Text"
+import PrimaryButtonStyles from "../constants/PrimaryButtonStyles"
 import Tabs from "../constants/Tabs.js"
 import TextStyles from "../constants/TextStyles"
 import asphaltWebCover from "../images/asphalt web.png"
@@ -11,16 +13,13 @@ import dome from "../images/dome.jpg"
 import Fluid from "../images/fluid.gif"
 import steps from "../images/steps.jpg"
 import ThirdEye from "../images/third-eye.gif"
-import PrimaryButton from "../components/PrimaryButton"
 import "../styles/sketchbook.scss"
 import "../styles/styles.scss"
-import "../styles/work.scss"
-import PrimaryButtonStyles from "../constants/PrimaryButtonStyles"
 
 function SketchbookPage() {
   return (
     <div>
-        {/* Header */}
+      {/* Header */}
       <Header selectedItem={Tabs.SKETCHBOOK} />
       <div className="banner-title">
         <Text style={TextStyles.HEADING1}>
