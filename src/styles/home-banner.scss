@@ -1,39 +1,8 @@
-@import "./styles.scss";
-.hero-container {
-    height: 70vh;
-    width: 80vw;
-    margin: 3vh auto;
-    display: grid;
-    grid-auto-rows: 1fr 1fr;
-}
-
-.title-work,
-.title-party {
-    align-self: center;
-}
-
-.work-svg,
-.party-highlight-svg,
-.party-no-highlight-svg {
-    stroke-width: 1.5px;
-    transition: fill 400ms ease-out;
-}
-
-.work-svg {
-    fill: $cream;
-    stroke: $blue;
-}
-
-.party-highlight-svg,
-.party-no-highlight-svg {
-    fill: $cream;
-    stroke: $pink;
-}
-
-.title-work>a>svg:hover>.work-svg {
-    fill: $blue;
-}
-
-.title-party>a>svg:hover>.party-highlight-svg {
-    fill: $pink;
+canvas {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    z-index: 1;
 }
