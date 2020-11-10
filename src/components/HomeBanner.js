@@ -79,7 +79,7 @@ function HomeBanner() {
       />
       <SpinningMesh position={[-2, 1, -5]} color="pink" speed={6} />
       <SpinningMesh position={[5, 1, -2]} color="pink" speed={6} />
-      <OrbitControls />
+      <OrbitControls maxPolarAngle={Math.PI / 2} minPolarAngle={Math.PI / 2}/>
     </Canvas>
   )
 }
