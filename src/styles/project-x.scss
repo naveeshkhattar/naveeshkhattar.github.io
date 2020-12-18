@@ -1,0 +1,11 @@
+.project-header {
+    margin: 0 auto;
+    padding-top: 10vw;
+    padding-bottom: 4vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 80px;
+    grid-auto-rows: min-content;
+}
