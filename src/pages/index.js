@@ -1,5 +1,6 @@
 import React from "react"
 import "../styles/styles.scss"
+import "../styles/home.scss"
 import PrimaryButton from "../components/PrimaryButton"
 import PrimaryButtonStyles from "../constants/PrimaryButtonStyles"
 import SecondaryButton from "../components/SecondaryButton"
@@ -36,12 +37,12 @@ function IndexPage() {
         </div>
         <div className="cta-buttons">
           <PrimaryButton
-            style={PrimaryButtonStyles.BLACK}
+            style={PrimaryButtonStyles.WHITE}
             linkTo="/contact"
             buttonText="Get in touch"
           />
           <SecondaryButton
-            style={SecondaryButtonStyles.BLACK}
+            style={SecondaryButtonStyles.WHITE}
             linkTo="/contact"
             buttonText="Download CV"
           />

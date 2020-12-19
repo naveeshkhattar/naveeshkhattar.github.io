@@ -1,0 +1,37 @@
+@import "../styles/styles.scss";
+.intro {
+    height: 50vh;
+    background-color: $black;
+}
+
+.intro-heading {
+    color: $white;
+    font-family: "Nimbus-Sans-Regular", sans-serif;
+    font-size: 1.75rem;
+    line-height: 2.438rem;
+}
+
+.intro-body {
+    color: $white;
+    font-family: "Nimbus-Sans-Regular", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.social-media-links {
+    display: flex;
+}
+
+.social-media-links>a {
+    padding-right: 16px;
+}
+
+.cta-buttons {
+    display: grid;
+}
+
+.navigation-card-cluster {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 0px;
+}
