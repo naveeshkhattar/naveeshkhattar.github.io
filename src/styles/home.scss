@@ -1,37 +1,44 @@
 @import "../styles/styles.scss";
-.intro {
-    height: 50vh;
+.intro-header-container {
     background-color: $black;
 }
 
-.intro-heading {
-    color: $white;
-    font-family: "Nimbus-Sans-Regular", sans-serif;
-    font-size: 1.75rem;
-    line-height: 2.438rem;
+.intro-header-group {
+    padding: 8vw;
 }
 
-.intro-body {
+.intro-header-text {
     color: $white;
     font-family: "Nimbus-Sans-Regular", sans-serif;
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font-size: 4.5rem;
+    line-height: 6rem;
 }
 
-.social-media-links {
+.intro-body-container {
+    height: 100vh;
+    background-color: $black;
+}
+
+.intro-body-text {
+    color: $white;
+    font-family: "Nimbus-Sans-Regular", sans-serif;
+    font-size: 3rem;
+    line-height: 3.875rem;
+    // max-width: 560px;
+    // margin-top: 12px;
+    padding: 8vw;
+}
+
+.intro-header-buttons {
     display: flex;
+    margin-top: 48px;
 }
 
-.social-media-links>a {
-    padding-right: 16px;
+.getintouch-button {
+    padding-right: 24px;
 }
 
-.cta-buttons {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-}
-
-.navigation-card-cluster {
+.navigation-section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 0px;

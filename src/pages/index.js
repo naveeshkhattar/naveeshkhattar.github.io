@@ -6,49 +6,34 @@ import PrimaryButtonStyles from "../constants/PrimaryButtonStyles"
 import SecondaryButton from "../components/SecondaryButton"
 import SecondaryButtonStyles from "../constants/SecondaryButtonStyles"
 import NavigationCard from "../components/NavigationCard"
+import Footer from "../components/Footer"
 
 function IndexPage() {
   return (
     <div>
-      <div className="intro">
-        <div className="intro-heading">Hi, I'm Naveesh</div>
-        <div className="intro-body">
-          I’m a designer exploring the areas of interaction and graphic design.
-          Apart from helping businesses design stable and scalable interfaces, I
-          devote my time to learning and exploring animation, 3D graphics and
-          programming.
-        </div>
-        <div className="social-media-links">
-          <a href="https://www.instagram.com/naveeshkhattar/" target="_blank">
-            Instagram
-          </a>
-          <a href="https://twitter.com/naveeshkhattar" target="_blank">
-            Twitter
-          </a>
-          <a
-            href="https://www.linkedin.com/in/naveesh-khattar/"
-            target="_blank"
-          >
-            LinkedIn
-          </a>
-          <a href="https://dribbble.com/naveeshkhattar" target="_blank">
-            Dribbble
-          </a>
-        </div>
-        <div className="cta-buttons">
-          <PrimaryButton
-            style={PrimaryButtonStyles.WHITE}
-            linkTo="/contact"
-            buttonText="Get in touch"
-          />
-          <SecondaryButton
-            style={SecondaryButtonStyles.WHITE}
-            linkTo="/contact"
-            buttonText="Download CV"
-          />
+      <div className="intro-header-container">
+        <div className="intro-header-group">
+          <div className="intro-header-text">
+            Hi, I'm Naveesh.<br></br>Senior Interaction Designer<br></br>at
+            Gojek.
+          </div>
+          <div className="intro-header-buttons">
+            <div className="getintouch-button">
+              <PrimaryButton
+                style={PrimaryButtonStyles.WHITE}
+                linkTo="/contact"
+                buttonText="Get in touch"
+              />
+            </div>
+            <SecondaryButton
+              style={SecondaryButtonStyles.WHITE}
+              linkTo="/contact"
+              buttonText="Download CV"
+            />
+          </div>
         </div>
       </div>
-      <div className="navigation-card-cluster">
+      <div className="navigation-section">
         <NavigationCard
           linkTo="/work"
           cardTitle="Work"
@@ -70,6 +55,15 @@ function IndexPage() {
           cardBody="A collection of work from 2017-2020"
         />
       </div>
+      <div className="intro-body-container">
+        <div className="intro-body-text">
+          I’m a designer exploring the areas of interaction and graphic
+          design.Apart from helping businesses design stable and scalable
+          interfaces, I devote my time to learning and exploring animation, 3D
+          graphics and programming.
+        </div>
+      </div>
+      <Footer />
     </div>
   )
 }
