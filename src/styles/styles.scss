@@ -38,7 +38,7 @@ $onyx: #3e3e3e;
 }
 
 html {
-    background-color: $black;
+    background-color: $white;
 }
 
 html,
@@ -69,4 +69,12 @@ body {
 .contact-button {
     margin-left: 10vw;
     margin-top: 32px;
+}
+
+.social-media-links {
+    display: flex;
+}
+
+.social-media-links>a {
+    padding-right: 16px;
 }

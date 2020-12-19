@@ -9,10 +9,10 @@ function ProjectCard({projectTitle, projectImage , projectImageAltText, projectL
     return(
         <div className="project-card">
             <Link to={projectLink}>
-                <div className="card-image">
+                <div className="project-card-image">
                     <img src={projectImage} alt={projectImageAltText} />
                 </div>
-                <div className="card-title">
+                <div className="project-card-title">
                     {projectTitle}
                 </div>
             </Link>

@@ -20,7 +20,7 @@ function ContactPage() {
           </a>{" "}
           to get in touch. You can also check out my{" "}
           <a
-            href="https://www.linkedin.com/in/naveesh-khattar-753754a2/"
+            href="https://www.linkedin.com/in/naveesh-khattar/"
             target="_blank"
           >
             LinkedIn

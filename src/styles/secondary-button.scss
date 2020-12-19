@@ -7,10 +7,11 @@
     font-family: "Nimbus-Sans-Regular-Extended", sans-serif;
     font-size: 18px;
     font-weight: 500;
-    padding: 28px 60px;
+    padding: 20px 44px;
     border-radius: 100px;
     border-color: $black;
     border-style: solid;
+    border-width: 1px;
     background-color: transparent;
     transition: background-color 400ms ease-out;
 }
@@ -28,10 +29,11 @@
     font-family: "Nimbus-Sans-Regular-Extended", sans-serif;
     font-size: 18px;
     font-weight: 500;
-    padding: 28px 60px;
+    padding: 20px 44px;
     border-radius: 100px;
     border-color: $white;
     border-style: solid;
+    border-width: 1px;
     background-color: transparent;
     transition: background-color 400ms ease-out;
 }
