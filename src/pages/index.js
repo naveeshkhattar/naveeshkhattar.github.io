@@ -58,7 +58,7 @@ function IndexPage() {
       <div className="intro-body-container">
         <div className="intro-body-text">
           I’m a designer exploring the areas of interaction and graphic
-          design.Apart from helping businesses design stable and scalable
+          design. Apart from helping businesses design stable and scalable
           interfaces, I devote my time to learning and exploring animation, 3D
           graphics and programming.
         </div>

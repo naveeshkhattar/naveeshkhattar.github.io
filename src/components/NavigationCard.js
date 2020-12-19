@@ -7,10 +7,9 @@ function NavigationCard({ linkTo, media, cardTitle, cardBody }) {
     <div>
       <Link to={linkTo}>
         <div className="navigation-card">
-        <div className="arrow-icon"></div>
-        <div className="media-object">{media}</div>
-        <div className="navigation-card-title">{cardTitle}</div>
-        <div className="navigation-card-body">{cardBody}</div>
+          <div className="navigation-card-title">{cardTitle}</div>
+          <div className="navigation-card-body">{cardBody}</div>
+          <div className="media-object">{media}</div>
         </div>
       </Link>
     </div>

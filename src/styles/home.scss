@@ -8,24 +8,22 @@
 }
 
 .intro-header-text {
-    color: $white;
+    color: $platinum;
     font-family: "Nimbus-Sans-Regular", sans-serif;
     font-size: 4.5rem;
     line-height: 6rem;
 }
 
 .intro-body-container {
-    height: 100vh;
+    // height: 100vh;
     background-color: $black;
 }
 
 .intro-body-text {
-    color: $white;
+    color: $platinum;
     font-family: "Nimbus-Sans-Regular", sans-serif;
     font-size: 3rem;
     line-height: 3.875rem;
-    // max-width: 560px;
-    // margin-top: 12px;
     padding: 8vw;
 }
 

@@ -1,4 +1,8 @@
 @import "../styles/styles.scss";
+a {
+    text-decoration: none;
+}
+
 .navigation-card {
     height: 500px;
     background-color: $platinum;
@@ -13,6 +17,16 @@
     margin-right: 40px;
 }
 
-.navigation-card-title {}
+.navigation-card-title {
+    font-size: 2.25rem;
+    line-height: 3.125rem;
+    color: $black;
+    padding-top: 40px;
+}
 
-.navigation-card-body {}
+.navigation-card-body {
+    font-size: 1rem;
+    line-height: 1.375rem;
+    color: $onyx;
+    padding-top: 8px;
+}
