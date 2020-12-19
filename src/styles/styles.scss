@@ -78,3 +78,21 @@ body {
 .social-media-links>a {
     padding-right: 16px;
 }
+
+.navigation-card-cluster {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 0px;
+}
+
+.intro {
+    height: 50vh;
+}
+
+.cta-buttons {
+    display: flex;
+}
+
+.cta-buttons>primary-button-black {
+    padding-right: 24px;
+}

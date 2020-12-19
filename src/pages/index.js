@@ -34,7 +34,7 @@ function IndexPage() {
             Dribbble
           </a>
         </div>
-        <div className="buttons">
+        <div className="cta-buttons">
           <PrimaryButton
             style={PrimaryButtonStyles.BLACK}
             linkTo="/contact"
@@ -47,8 +47,27 @@ function IndexPage() {
           />
         </div>
       </div>
-      <div className="page-navigation-cards">
-        <NavigationCard cardTitle="Work" cardBody="A collection of work from 2017-2020" />
+      <div className="navigation-card-cluster">
+        <NavigationCard
+          linkTo="/work"
+          cardTitle="Work"
+          cardBody="A collection of work from 2017-2020"
+        />
+        <NavigationCard
+          linkTo="/sketchbook"
+          cardTitle="Sketchbook"
+          cardBody="A collection of work from 2017-2020"
+        />
+        <NavigationCard
+          linkTo="/about"
+          cardTitle="About"
+          cardBody="Since they wanna know"
+        />
+        <NavigationCard
+          linkTo="/contact"
+          cardTitle="Contact"
+          cardBody="A collection of work from 2017-2020"
+        />
       </div>
     </div>
   )
