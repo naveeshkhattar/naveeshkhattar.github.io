@@ -31,6 +31,9 @@
     padding: 28px 60px;
     border-radius: 100px;
     border-color: $white;
+    border-style: solid;
+    background-color: transparent;
+    transition: background-color 400ms ease-out;
 }
 
 .secondary-button-black>a:hover {
@@ -38,7 +41,7 @@
     color: $white;
 }
 
-.secondary-button-white:hover {
+.secondary-button-white>a:hover {
     background-color: $white;
     color: $black;
 }

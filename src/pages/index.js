@@ -14,8 +14,8 @@ function IndexPage() {
         <div className="intro-body"></div>
         <div className="social-media-links"></div>
         <div className="buttons">
-          <PrimaryButton style={PrimaryButtonStyles.BLACK} linkTo="/contact" buttonText="Get in touch" />
-          <SecondaryButton style={SecondaryButtonStyles.BLACK} linkTo="/contact" buttonText="Download CV" />
+          <PrimaryButton style={PrimaryButtonStyles.WHITE} linkTo="/contact" buttonText="Get in touch" />
+          <SecondaryButton style={SecondaryButtonStyles.WHITE} linkTo="/contact" buttonText="Download CV" />
         </div>
       </div>
     </div>
