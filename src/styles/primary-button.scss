@@ -10,6 +10,10 @@
     font-weight: 500;
     padding: 20px 44px;
     border-radius: 100px;
+    @media (max-width: $mobile) {
+        width: auto;
+        text-align: center;
+    }
 }
 
 .primary-button-white,
@@ -17,6 +21,9 @@
     width: fit-content;
     opacity: 1;
     transition: opacity 400ms ease-out;
+    @media (max-width: $mobile) {
+        width: auto;
+    }
 }
 
 .primary-button-white>a {
@@ -30,6 +37,10 @@
     font-weight: 500;
     padding: 20px 44px;
     border-radius: 100px;
+    @media (max-width: $mobile) {
+        width: auto;
+        text-align: center;
+    }
 }
 
 .primary-button-white:hover,

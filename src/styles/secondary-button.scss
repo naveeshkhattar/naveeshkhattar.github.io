@@ -14,11 +14,18 @@
     border-width: 1px;
     background-color: transparent;
     transition: background-color 400ms ease-out;
+    @media (max-width: $mobile) {
+        width: auto;
+        text-align: center;
+    }
 }
 
 .secondary-button-black,
 .secondary-button-white {
     width: fit-content;
+    @media (max-width: $mobile) {
+        width: auto;
+    }
 }
 
 .secondary-button-white>a {
@@ -36,6 +43,10 @@
     border-width: 1px;
     background-color: transparent;
     transition: background-color 400ms ease-out;
+    @media (max-width: $mobile) {
+        width: auto;
+        text-align: center;
+    }
 }
 
 .secondary-button-black>a:hover {

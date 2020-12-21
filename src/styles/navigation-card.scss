@@ -12,6 +12,9 @@ a {
     @media (max-width: $desktop) {
         border-bottom-style: solid;
     }
+    @media (max-width: $tablet) {
+        border-right-style: none;
+    }
 }
 
 .navigation-card-title,

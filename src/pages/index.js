@@ -15,7 +15,7 @@ function IndexPage() {
       <div className="intro-header-container">
         <div className="intro-header-group">
           <div className="intro-header-text">
-            Hi, I'm Naveesh.<br></br>Senior Interaction Designer<br></br>at
+            Hi, I'm Naveesh.<br></br>Senior Interaction Designer at
             Gojek.
           </div>
           <div className="intro-header-buttons">

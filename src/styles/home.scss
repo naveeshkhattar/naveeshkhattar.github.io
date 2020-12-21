@@ -5,6 +5,9 @@
 
 .intro-header-group {
     padding: 8vw;
+    @media (max-width: $tablet) {
+        height: 100vh;
+    }
 }
 
 .intro-header-text {
@@ -12,6 +15,14 @@
     font-family: "Nimbus-Sans-Regular", sans-serif;
     font-size: 4.5rem;
     line-height: 5.375rem;
+    @media (max-width: $desktop) {
+        font-size: 4rem;
+        line-height: 4.813rem;
+    }
+    @media (max-width: $tablet) {
+        font-size: 2.25rem;
+        line-height: 2.688rem;
+    }
 }
 
 .intro-body-container {
@@ -29,10 +40,17 @@
 .intro-header-buttons {
     display: flex;
     margin-top: 48px;
+    @media (max-width: $mobile) {
+        display: block;
+    }
 }
 
 .getintouch-button {
     padding-right: 24px;
+    @media (max-width: $mobile) {
+        padding-right: 0px;
+        padding-bottom: 24px;
+    }
 }
 
 .navigation-section {
