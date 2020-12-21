@@ -8,6 +8,7 @@ import SecondaryButtonStyles from "../constants/SecondaryButtonStyles"
 import NavigationCard from "../components/NavigationCard"
 import Footer from "../components/Footer"
 
+
 function IndexPage() {
   return (
     <div>
@@ -64,6 +65,7 @@ function IndexPage() {
         </div>
       </div>
       <Footer />
+      
     </div>
   )
 }
