@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import LottieAnimation from "../components/LottieAnimation"
 
 
-function NavigationCard({ linkTo, media, cardTitle, cardBody }) {
+function NavigationCard({ linkTo, cardTitle, cardBody }) {
   return (
     <div>
       <Link to={linkTo}>

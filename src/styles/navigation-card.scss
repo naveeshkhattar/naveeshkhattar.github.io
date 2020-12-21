@@ -4,11 +4,14 @@ a {
 }
 
 .navigation-card {
-    height: 500px;
+    height: fit-content;
     background-color: $platinum;
     border-right-style: solid;
     border-color: $black;
     border-width: 2px;
+    @media (max-width: $desktop) {
+        border-bottom-style: solid;
+    }
 }
 
 .navigation-card-title,
@@ -33,4 +36,5 @@ a {
 
 .lottie-animation {
     padding-top: 80px;
+    padding-bottom: 40px;
 }
