@@ -3,10 +3,10 @@
     background-color: $black;
 }
 
-.intro-header-group {
+.intro-header-inner {
     padding: 8vw;
     @media (max-width: $tablet) {
-        height: 100vh;
+        padding-top: 40%;
     }
 }
 
@@ -14,14 +14,18 @@
     color: $platinum;
     font-family: "Nimbus-Sans-Regular", sans-serif;
     font-size: 4.5rem;
-    line-height: 5.375rem;
+    line-height: 5.4rem;
     @media (max-width: $desktop) {
         font-size: 4rem;
-        line-height: 4.813rem;
+        line-height: 4.8rem;
     }
     @media (max-width: $tablet) {
-        font-size: 2.25rem;
-        line-height: 2.688rem;
+        font-size: 3rem;
+        line-height: 3.6rem;
+    }
+    @media (max-width: $mobile) {
+        font-size: 2.5rem;
+        line-height: 3rem;
     }
 }
 
@@ -30,11 +34,19 @@
 }
 
 .intro-body-text {
+    padding: 8vw;
     color: $platinum;
     font-family: "Nimbus-Sans-Regular", sans-serif;
     font-size: 3rem;
     line-height: 3.875rem;
-    padding: 8vw;
+    @media (max-width: $tablet) {
+        font-size: 2.25rem;
+        line-height: 2.7rem;
+    }
+    @media (max-width: $mobile) {
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
 }
 
 .intro-header-buttons {
