@@ -21,6 +21,10 @@ a {
 .navigation-card-body {
     margin-left: 40px;
     margin-right: 40px;
+    @media (max-width: $tablet) {
+        margin-left: 8vw;
+        margin-right: 8vw;
+    }
 }
 
 .navigation-card-title {
@@ -28,6 +32,10 @@ a {
     line-height: 3.125rem;
     color: $black;
     padding-top: 40px;
+    @media (max-width: $mobile) {
+        font-size: 1.8rem;
+        line-height: 2.16rem;
+    }
 }
 
 .navigation-card-body {

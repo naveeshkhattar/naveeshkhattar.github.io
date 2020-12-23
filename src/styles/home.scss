@@ -5,8 +5,9 @@
 
 .intro-header-inner {
     padding: 8vw;
+    padding-top: 20%;
     @media (max-width: $tablet) {
-        padding-top: 40%;
+        padding-top: 60%;
     }
 }
 
@@ -24,8 +25,8 @@
         line-height: 3.6rem;
     }
     @media (max-width: $mobile) {
-        font-size: 2.5rem;
-        line-height: 3rem;
+        font-size: 2rem;
+        line-height: 2.4rem;
     }
 }
 
@@ -44,8 +45,8 @@
         line-height: 2.7rem;
     }
     @media (max-width: $mobile) {
-        font-size: 2rem;
-        line-height: 2.4rem;
+        font-size: 1.8rem;
+        line-height: 2.16rem;
     }
 }
 
@@ -53,15 +54,16 @@
     display: flex;
     margin-top: 48px;
     @media (max-width: $mobile) {
-        display: block;
+        margin-top: 32px;
+        margin-bottom: 8px;
     }
 }
 
 .getintouch-button {
     padding-right: 24px;
     @media (max-width: $mobile) {
-        padding-right: 0px;
-        padding-bottom: 24px;
+        padding-right: 20px;
+        // padding-bottom: 24px;
     }
 }
 
