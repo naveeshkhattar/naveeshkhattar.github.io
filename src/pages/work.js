@@ -21,31 +21,20 @@ function WorkPage() {
       {/* Header */}
       <Header selectedItem={Tabs.WORK} />
 
-      {/* Banner */}
-      <div className="banner">
-        <div className="banner-title">
-          <Text style={TextStyles.HEADING1}>
-            Interaction designer, currently working at Gojek.
-          </Text>
-        </div>
-        <div className="banner-image">
-          <img src={steps} />
-        </div>
-      </div>
 
-      {/* Work Text Section */}
-      <div className="work-section">
-        <div className="work-heading">
-          <Text style={TextStyles.HEADING2_BLACK}>Recent Work</Text>
+      {/* Work Header Section */}
+      <div className="work-header-container">
+        <div className="work-header-title">
+          Recent Work
         </div>
-        <div className="work-body">
-          <Text style={TextStyles.BODY_BLACK}>
+        <div className="work-header-body">
+          
             Our practice spans from environmental retrofits of existing
             buildings to the complete planning and design of new neighborhoods
             and public spaces. While our work is aesthetically diverse, our
             projects are linked by a focus on enhancing human relationships
             through architecture.
-          </Text>
+          
         </div>
       </div>
 

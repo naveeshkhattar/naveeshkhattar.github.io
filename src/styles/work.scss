@@ -20,19 +20,36 @@
     object-fit: cover;
 }
 
-.work-section {
-    margin-left: 10vw;
-    margin-top: 4.4vw;
-    margin-bottom: 2.8vw;
+.work-header-container {
+    // margin-left: 10vw;
+    // margin-top: 4.4vw;
+    // margin-bottom: 2.8vw;
+    margin-top: 160px;
+    margin-left: 80px;
+    margin-right: 40px;
+    @media (max-width: $tablet) {
+        margin-left: 8vw;
+        margin-right: 8vw;
+    }
 }
 
-.work-heading {
+.work-header-title {
     width: 50vw;
+    font-size: 2.25rem;
+    line-height: 3.125rem;
+    color: $black;
+    @media (max-width: $mobile) {
+        font-size: 1.8rem;
+        line-height: 2.16rem;
+    }
 }
 
-.work-body {
+.work-header-body {
     width: 40vw;
     margin-top: 28px;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    color: $onyx;
 }
 
 .project-grid {
