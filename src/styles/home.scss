@@ -43,10 +43,12 @@
     @media (max-width: $tablet) {
         font-size: 2.25rem;
         line-height: 2.7rem;
+        padding-top: 80px;
     }
     @media (max-width: $mobile) {
         font-size: 1.8rem;
         line-height: 2.16rem;
+        padding-top: 80px;
     }
 }
 
