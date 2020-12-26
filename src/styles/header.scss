@@ -1,45 +1,72 @@
-@import "../styles/styles.scss";
-.header-component {
-    height: 128px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 4vw;
-    padding-right: 4vw;
-    z-index: 10;
-    position: fixed;
-    right: 0;
-    left: 0;
-    top: 0;
-}
-
-.header-nav {
-    display: grid;
-    grid-template-columns: repeat(5, auto);
-    grid-column-gap: 40px;
-}
-
-.header-mobile-nav {
-    background-color: yellow;
-}
-
-.social-media {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-column-gap: 0px;
-    width: 80px;
-    margin: auto;
-}
-
-.social-media>a {
-    display: flex;
-    justify-content: center;
-    height: 40px;
-    width: 40px;
-    opacity: 1;
-    transition: opacity 400ms ease-out;
-}
-
-.social-media>a:hover {
-    opacity: 0.5;
-}
+    @import "../styles/styles.scss";
+    .header-component {
+        height: 128px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        z-index: 10;
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+    }
+    
+    .header-menu-button {
+        z-index: 100;
+    }
+    
+    .header-menu-button>button {
+        z-index: 100;
+        background: transparent;
+        border: transparent;
+        @media (min-width: $tablet) {
+            display: none;
+        }
+        @media (max-width: $tablet) {
+            display: inline-block;
+        }
+    }
+    
+    .header-nav {
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        grid-column-gap: 40px;
+        @media (max-width: $tablet) {
+            display: none;
+        }
+    }
+    
+    .header-menu-nav {
+        z-index: 50;
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+        background-color: yellow;
+        display: grid;
+        grid-template-rows: repeat(5, auto);
+        grid-row-gap: 40px;
+        align-items: center;
+    }
+    
+    .social-media {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-column-gap: 0px;
+        width: 80px;
+        margin: auto;
+    }
+    
+    .social-media>a {
+        display: flex;
+        justify-content: center;
+        height: 40px;
+        width: 40px;
+        opacity: 1;
+        transition: opacity 400ms ease-out;
+    }
+    
+    .social-media>a:hover {
+        opacity: 0.5;
+    }

@@ -1,4 +1,8 @@
 @import "../styles/styles.scss";
+.nav-link {
+    z-index: 100;
+}
+
 .nav-link>a,
 .nav-action>a {
     font-family: 'Nimbus-Sans-Regular', sans-serif;

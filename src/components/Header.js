@@ -5,6 +5,8 @@ import Tabs from "../constants/Tabs.js"
 import "../styles/header.scss"
 import Twitter from "../images/icon-twitter_black.svg"
 import Instagram from "../images/icon-instagram_black.svg"
+import MenuIcon from "../images/menu.svg"
+import CrossIcon from "../images/cross.svg"
 
 function Header({ selectedItem }) {
   const [Active, setActive] = useState(false)
@@ -18,12 +20,12 @@ function Header({ selectedItem }) {
       <div className="header-logo">
         <HeaderLogo name="Naveesh" linkTo="/" />
       </div>
-      <div className="button-container">
+      <div className="header-menu-button">
         <button onClick={toggleClass}>
-          <img src={Twitter} height="20" width="20"></img>
+          <img src={Active ? CrossIcon : MenuIcon} height="20" width="20"></img>
         </button>
       </div>
-      <div className={Active ? "header-mobile-nav" : "header-nav"}>
+      <div className={Active ? "header-menu-nav" : "header-nav"}>
         <HeaderNavItem
           name="Work"
           linkTo="/work"
