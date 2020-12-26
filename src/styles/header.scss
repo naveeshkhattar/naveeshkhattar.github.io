@@ -1,3 +1,4 @@
+@import "../styles/styles.scss";
 .header-component {
     height: 128px;
     display: flex;
@@ -16,6 +17,10 @@
     display: grid;
     grid-template-columns: repeat(5, auto);
     grid-column-gap: 40px;
+}
+
+.header-mobile-nav {
+    background-color: yellow;
 }
 
 .social-media {

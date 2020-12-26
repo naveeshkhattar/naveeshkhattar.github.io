@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import HeaderLogo from "./HeaderLogo"
 import HeaderNavItem from "./HeaderNavItem"
 import Tabs from "../constants/Tabs.js"
@@ -7,12 +7,23 @@ import Twitter from "../images/icon-twitter_black.svg"
 import Instagram from "../images/icon-instagram_black.svg"
 
 function Header({ selectedItem }) {
+  const [Active, setActive] = useState(false)
+
+  const toggleClass = () => {
+    setActive(!Active)
+  }
+
   return (
     <div className="header-component">
       <div className="header-logo">
         <HeaderLogo name="Naveesh" linkTo="/" />
       </div>
-      <div className="header-nav">
+      <div className="button-container">
+        <button onClick={toggleClass}>
+          <img src={Twitter} height="20" width="20"></img>
+        </button>
+      </div>
+      <div className={Active ? "header-mobile-nav" : "header-nav"}>
         <HeaderNavItem
           name="Work"
           linkTo="/work"

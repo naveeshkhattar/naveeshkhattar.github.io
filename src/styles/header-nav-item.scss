@@ -1,8 +1,9 @@
+@import "../styles/styles.scss";
 .nav-link>a,
 .nav-action>a {
     font-family: 'Nimbus-Sans-Regular', sans-serif;
     font-size: 1rem;
-    color: #000;
+    color: $black;
     text-decoration: none;
     opacity: 1;
     transition: opacity 400ms ease-out;
