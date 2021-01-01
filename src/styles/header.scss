@@ -11,7 +11,11 @@
         right: 0;
         left: 0;
         top: 0;
-        @media (max-width: $tablet) {}
+        @media (max-width: $tablet) {
+            padding-top: 32px;
+            height: auto;
+            align-items: baseline;
+        }
     }
     
     .header-menu-button {
