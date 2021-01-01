@@ -57,6 +57,9 @@
         right: 0;
         top: 0;
         width: 100vw;
+        @media (min-width: $tablet) {
+            display: none;
+        }
     }
     
     .social-media {
