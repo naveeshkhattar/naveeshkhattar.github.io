@@ -11,9 +11,9 @@
     border-radius: 100px;
     border-color: $black;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     background-color: transparent;
-    transition: background-color 400ms ease-out;
+    transition: opacity 400ms ease-out;
     @media (max-width: $mobile) {
         font-size: 16px;
         padding: 16px 24px;
@@ -40,9 +40,9 @@
     border-radius: 100px;
     border-color: $white;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     background-color: transparent;
-    transition: background-color 400ms ease-out;
+    transition: opacity 400ms ease-out;
     @media (max-width: $mobile) {
         font-size: 16px;
         padding: 16px 24px;
@@ -50,11 +50,9 @@
 }
 
 .secondary-button-black>a:hover {
-    background-color: $black;
-    color: $white;
+    opacity: 0.6;
 }
 
 .secondary-button-white>a:hover {
-    background-color: $white;
-    color: $black;
+    opacity: 0.6;
 }
